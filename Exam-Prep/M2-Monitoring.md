@@ -16,7 +16,7 @@ void SetupCategoryIfNotExists() {
     b.Add(c);
 
     // Add the base counter.
-    var d averageCount64Base = new D();
+    var d = new D();
     d.CounterType = F;
     d.CounterName = "AverageCounter64SampleBase";
     b.Add(d);

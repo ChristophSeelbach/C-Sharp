@@ -28,3 +28,7 @@ class Program {
 ```
 
 ## `ref` and `out`
+
+<details>
+    <summary>Solution</summary>
+</details>
