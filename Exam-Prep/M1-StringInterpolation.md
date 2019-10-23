@@ -12,6 +12,7 @@ var dt = new DateTime(3000, 12, 24, 10, 00);
 double price = 9000000.932;
 ```
 
-### Exercises:
+### Questions:
+
 1. Please create a template string, that generate the diresed output.
 2. Please create a String.Format equivalent.

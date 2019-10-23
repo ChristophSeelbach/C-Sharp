@@ -45,3 +45,4 @@ Possible Values:
 1. PerformanceCounterCategory
 1. PerformanceCounterType.AverageCount64
 1. PerformanceCounterType.RateOfCountsPerSecond64
+

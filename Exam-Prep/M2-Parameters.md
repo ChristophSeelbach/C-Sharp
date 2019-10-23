@@ -29,6 +29,4 @@ class Program {
 
 ## `ref` and `out`
 
-<details>
-    <summary>Solution</summary>
-</details>
+What is the difference between `ref` and `out`?
