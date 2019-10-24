@@ -11,3 +11,8 @@ Console.WriteLine(0 / 0.0);
 ```
 
 What is the ouput of each line?
+
+1. null
+1. 0.0
+1. 0
+1. NaN

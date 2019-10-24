@@ -8,12 +8,14 @@ class Program {
         var dataSource = new [] { 1, 2, 3, 4, 5, 6, 7, 8};
 
         // TODO: var result = 
-        Console.WriteLine(result);
+
+        foreach(var item in result)
+            Console.WriteLine(item);
     }
 }
 ```
 
-Write a LINQ query statement, that returns the square value for every even number in the array `dataSource` (`4 16 36 64`), which can used to replace the TODO.
+Write a LINQ query statement, that returns the square value for every even number in the array `dataSource` (output: `4 16 36 64`), which can used to replace the TODO.
 
 Write the same statement with extension methods.
 
@@ -27,7 +29,9 @@ class Program {
         };
 
         // TODO: var result = 
-        Console.WriteLine(result);
+
+        foreach(var item in result)
+            Console.WriteLine(item);
     }
 }
 ```
@@ -36,5 +40,3 @@ Write a LINQ extension method statement as replacement for the TODO, that return
 1. distinct 
 2. sorted,
 3. take only 4 items
-
-Write the same statement as LINQ query.

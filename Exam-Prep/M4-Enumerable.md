@@ -14,9 +14,19 @@ class RandomGenerator {
 
 ## Enumerable 2
 
-How to make RandomGenerator enumerable (e.g. in a `foreach`).
+How to make RandomGenerator enumerable (e.g. in a `foreach`). Please specify the required steps. Each present a part of the completed solutions.
 
 ```C#
 class RandomGenerator {
 }
 ```
+
+Please pick from the following options
+1. Implement `IEnumerable<int>`
+1. Implement `IEnumerator<int>`
+1. Implement `IForEach<int>`
+1. Implement `IEnumerator<int> GetEnumerator()`
+1. Implement `IEnumerator GetEnumerator()`
+1. Implement `IForEach<int> Next()`
+1. Implement `IForEach<int> Iterate()`
+

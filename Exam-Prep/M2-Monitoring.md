@@ -31,12 +31,12 @@ void SetupCategoryIfNotExists() {
 The performance counter shows the average number of operations completed during each second of the sample interval.
 
 Please select for each placeholder the correct class:
-- A
-- B
-- C
-- D
-- E
-- F
+* A
+* B
+* C
+* D
+* E
+* F
 
 Possible Values:
 1. CounterCreationDataCollection
