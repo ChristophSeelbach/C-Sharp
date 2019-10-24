@@ -14,3 +14,9 @@ class RandomGenerator {
 
 ## Enumerable 2
 
+How to make RandomGenerator enumerable (e.g. in a `foreach`).
+
+```C#
+class RandomGenerator {
+}
+```
