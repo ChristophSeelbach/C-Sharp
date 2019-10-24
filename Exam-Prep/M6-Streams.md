@@ -14,11 +14,11 @@ class Program
         var cDirs = new A(@"c:\").GetDirectories();
 
         // Write each directory name to a file.
-        using (var sw = new B("CDriveDirs.txt"))
+        using (var b = new B("CDriveDirs.txt"))
         {
             foreach (A dir in cDirs)
             {
-                sw.WriteLine(dir.Name);
+                b.WriteLine(dir.Name);
 
             }
         }

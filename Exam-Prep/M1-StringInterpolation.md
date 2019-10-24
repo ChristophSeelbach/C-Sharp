@@ -12,7 +12,6 @@ var dt = new DateTime(3000, 12, 24, 10, 00);
 double price = 9000000.932;
 ```
 
-### Questions:
+Create a string interpolation, that generates the desired output.
 
-1. Please create a template string, that generate the diresed output.
-2. Please create a String.Format equivalent.
+Create a String.Format equivalent for the string interpolation.
