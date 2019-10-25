@@ -16,8 +16,8 @@ class Hero {
 }
 ```
 
-`FirstName` and `LastName` can not be change outside of the class.
+`FirstName` and `LastName` can not be change outside of the class and its derivated classes.
 Which of the following options would meet the requirements:
-* Add `protected` access modifier to `set`.
-* Change access modifier from `public` to `protected` and set the `get` method to `public`.
-* Change the properties to fields.
+1. Add `protected` access modifier to `set`.
+2. Change access modifier from `public` to `protected` and set the `get` method to `public`.
+3. Change the properties to fields.
