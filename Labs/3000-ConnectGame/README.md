@@ -1,4 +1,4 @@
-# Lab - Connect 4
+# Lab - Connect Game
 
 ## Objective
 The objective of this lab is to understand the usage of:
@@ -49,4 +49,3 @@ if (!match.Success) {
 var firstPart = match.Groups[1].Value;
 var secondPart = match.Groups[2].Value;
 ```
-
