@@ -1,4 +1,4 @@
-# Lab - Connect 4
+# Lab - Connect Game
 
 ## Objective
 The objective of this lab is to understand the usage of:
