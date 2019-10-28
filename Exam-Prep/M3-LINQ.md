@@ -36,7 +36,8 @@ class Program {
 }
 ```
 
-Write a LINQ extension method statement as replacement for the TODO, that returns a list with the following characteristics:
-1. distinct 
-2. sorted,
-3. take only 4 items
+Write a LINQ extension method statement as replacement for the TODO, that returns a new array from `dataSource` with the following characteristics:
+
+1. take only the distinct and even numbers of `dataSource`
+2. the new list is sorted ascending,
+3. take only the first 4 number and return it's square root
