@@ -29,3 +29,11 @@ catch(Exception ex) {
 
 ## Creating custom Exception
 Which class should be use as the base class for custom Exceptions?
+
+## Exceptions
+Which block do you use, so that `OverflowException` are thrown?
+
+* try
+* unchecked
+* checked
+* using
