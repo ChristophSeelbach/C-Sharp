@@ -48,8 +48,9 @@ static class DraphonyExtension {
 3. XmlSerializer
 4. BinaryFormatter
 
+## Solution for both questions
 <details>
-<summary>Solution for all 3 questions</summary>
+<summary>Source code</summary>
 
 ```C#
 using System;
