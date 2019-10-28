@@ -26,3 +26,19 @@ Select the correct replacement for `A`, `B`, `C`, `D` from the following list:
 10. `Task<StreamWriter>`
 11. `StreamWriter`
 12. `TaskResult`
+
+## Asynchronous
+Why should you avoid locking with `this`?
+```C#
+lock(this) {
+
+}
+```
+
+<details>
+<summary>Solution</summary>
+
+1. Deadlock may occurs beause other code in your application, external to the type, takes a lock on the object. 
+2. Also you may only need to lock a particular member not the entire instances.
+
+</details>
